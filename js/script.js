@@ -9,4 +9,14 @@ console.log(km, age);
 
 // Logica
 
+const originalPrice = km * rate;
+console.log(originalPrice)
 
+if (age<=18) {
+    discount = (originalPrice * 0.2)
+    finishedPrice = (originalPrice - discount)}
+    else {
+        discount = (0)
+        finishedPrice = (originalPrice - discount)};
+
+console.log(discount, finishedPrice)
