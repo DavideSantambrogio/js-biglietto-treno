@@ -14,6 +14,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 ### Logica del programma
 1. Chiedi quanti km deve percorrere
+    - moltiplica per la tariffa
 0. Chiedi quanti hanni hai
     - Se < 18 applica sconto 20%
     - Se < 65 applica sconto 40%
