@@ -24,9 +24,11 @@ console.log(discount, finishedPrice)
 if (age>=65) {
     discount = (originalPrice * 0.4)
     finishedPrice = (originalPrice - discount)}
-    else {
-        discount = (0)
-        finishedPrice = (originalPrice - discount)};
-
+  
 console.log(discount, finishedPrice)
 
+const price = (finishedPrice).toFixed(2)
+
+console.log(price)
+
+document.getElementById("price").innerHTML = price 
