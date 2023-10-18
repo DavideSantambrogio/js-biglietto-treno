@@ -20,3 +20,13 @@ if (age<=18) {
         finishedPrice = (originalPrice - discount)};
 
 console.log(discount, finishedPrice)
+
+if (age>=65) {
+    discount = (originalPrice * 0.4)
+    finishedPrice = (originalPrice - discount)}
+    else {
+        discount = (0)
+        finishedPrice = (originalPrice - discount)};
+
+console.log(discount, finishedPrice)
+
